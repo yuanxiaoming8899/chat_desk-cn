@@ -1,119 +1,166 @@
-
-<div align="center" style="margin: 20px;">
-    <a href="https://codeclimate.com/github/omegaui/chat_desk/maintainability"><img src="https://api.codeclimate.com/v1/badges/22ee0cd01d57542e4f45/maintainability" /></a>
-    <a href="https://github.com/omegaui/chat_desk/actions"><img src="https://github.com/omegaui/chat_desk/actions/workflows/build-for-desktop.yml/badge.svg" /></a>
-    <img src="https://img.shields.io/github/downloads/omegaui/chat_desk/total?style=social" />
-    <img src="https://img.shields.io/github/v/release/omegaui/chat_desk" />
-    <img src="https://img.shields.io/github/license/omegaui/chat_desk" />
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+    <a href="https://codeclimate.com/github/omegaui/chat_desk/maintainability" rel="nofollow"><img src="https://camo.githubusercontent.com/3312d62d930a16069afc625eb303b901c84c6fb393440649320db98eb2e4fdd7/68747470733a2f2f6170692e636f6465636c696d6174652e636f6d2f76312f6261646765732f32326565306364303164353735343265346634352f6d61696e7461696e6162696c697479" data-canonical-src="https://api.codeclimate.com/v1/badges/22ee0cd01d57542e4f45/maintainability" style="max-width: 100%;"></a>
+    <a href="https://github.com/omegaui/chat_desk/actions"><img src="https://github.com/omegaui/chat_desk/actions/workflows/build-for-desktop.yml/badge.svg" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/aa5c0f8c9b865b19945b254a0ac10a8b704181347558a8db78e78de014f71b32/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6f6d65676175692f636861745f6465736b2f746f74616c3f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/aa5c0f8c9b865b19945b254a0ac10a8b704181347558a8db78e78de014f71b32/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6f6d65676175692f636861745f6465736b2f746f74616c3f7374796c653d736f6369616c" data-canonical-src="https://img.shields.io/github/downloads/omegaui/chat_desk/total?style=social" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1aacb29b5b7d7135aaba4e8cc545fa7ea73d2bb5ae166b8091b9e61ee7a55e95/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6f6d65676175692f636861745f6465736b"><img src="https://camo.githubusercontent.com/1aacb29b5b7d7135aaba4e8cc545fa7ea73d2bb5ae166b8091b9e61ee7a55e95/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6f6d65676175692f636861745f6465736b" data-canonical-src="https://img.shields.io/github/v/release/omegaui/chat_desk" style="max-width: 100%;"></a>
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4d8ccff552f7c0fd66190fc93fad23c71fc98c45c7671219d8d7746ad41fd835/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6f6d65676175692f636861745f6465736b"><img src="https://camo.githubusercontent.com/4d8ccff552f7c0fd66190fc93fad23c71fc98c45c7671219d8d7746ad41fd835/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6f6d65676175692f636861745f6465736b" data-canonical-src="https://img.shields.io/github/license/omegaui/chat_desk" style="max-width: 100%;"></a>
 </div>
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频描述 alpha-preview.webm" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alpha 预览.webm</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
 
-[alpha-preview.webm](https://user-images.githubusercontent.com/73544069/222953852-a379b891-a3f8-4cb9-bb55-848041664768.webm)
+  <video src="https://private-user-images.githubusercontent.com/73544069/222953852-a379b891-a3f8-4cb9-bb55-848041664768.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyNjMwOTIsIm5iZiI6MTcxMTI2Mjc5MiwicGF0aCI6Ii83MzU0NDA2OS8yMjI5NTM4NTItYTM3OWI4OTEtYTNmOC00Y2I5LWJiNTUtODQ4MDQxNjY0NzY4LndlYm0_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyNFQwNjQ2MzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ODU0OTAyYTAwYzAxNjRjZjJjMDMyYTdkYTY2ZTExZGZiOGRlNjBjM2ExM2UzMjEyOWVhODllYzA1NDY2YmQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.q0yv5KpftmMlge5tiaUim_9JoTtyPYLzXzohYw9CgtI" data-canonical-src="https://private-user-images.githubusercontent.com/73544069/222953852-a379b891-a3f8-4cb9-bb55-848041664768.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyNjMwOTIsIm5iZiI6MTcxMTI2Mjc5MiwicGF0aCI6Ii83MzU0NDA2OS8yMjI5NTM4NTItYTM3OWI4OTEtYTNmOC00Y2I5LWJiNTUtODQ4MDQxNjY0NzY4LndlYm0_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyNFQwNjQ2MzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ODU0OTAyYTAwYzAxNjRjZjJjMDMyYTdkYTY2ZTExZGZiOGRlNjBjM2ExM2UzMjEyOWVhODllYzA1NDY2YmQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.q0yv5KpftmMlge5tiaUim_9JoTtyPYLzXzohYw9CgtI" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 
-# ![](app-icon/app_icon_32.png) chat_desk (in the making)
-A self-hosted chat application for desktop written in Flutter!
+  </video>
+</details>
 
-## ![](https://img.icons8.com/external-basicons-color-danil-polshin/32/null/external-space-space-basicons-color-danil-polshin-13.png) Features
-- 🚀 Self-Host your own Chat Rooms
-- 🔐 Set a Server Code (Users need this code additionally with server address to connect)
-- 💙 Complete Private Chatting
-- ❌ No Data Collection
-- 🪨 Unbreakable Core
-- 🎉 Truly Opensource
-
-## ![](https://img.icons8.com/color-glass/32/null/lab-items.png) Features to be implemented
-- [ ] 😼 Blocking Users   
-- [ ] 💕 An optional white list of users to only allow connection from specified users
-- [ ] 🎽 Multi-Theming 
-
-## ![](https://img.icons8.com/external-itim2101-flat-itim2101/32/null/external-test-online-education-itim2101-flat-itim2101.png) Testing (requires dart installed)
-**Finely Tested on Windows and Linux!**
-
-**I don't own a mac, So, Mac Testers are needed! Any help would be very grateful 💕**
-
-### ![](https://img.icons8.com/color/32/null/linux--v1.png) Linux, ![](https://img.icons8.com/fluency/32/null/windows-10.png) Windows and ![](https://img.icons8.com/color/32/null/mac-logo.png) MacOS
-Head over to **Releases**
-
-### Linux One Line Install
-
-```shell
-curl "https://raw.githubusercontent.com/omegaui/chat_desk_linux_install_script/main/script/install-linux.sh" | sh
-```
-
-### Windows and Mac
-Apart from setup, you are required to download `chat_desk_core` & `pubspec.yml` at the installation root directory,
-
-Run the following to download it,
-```shell
-wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
-wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/pubspec.yml
-```
-
-where, platform is either **windows** or **mac**. 
-
-#### ![](https://img.icons8.com/color/24/null/mac-logo.png) mac is now 🎉 supported (experimental).
-
-
-##  Build From Source
-
-**It's easy**
-
-- **Clone the repo**
-```shell
-git clone https://github.com/omegaui/chat_desk
-cd chat_desk
-```
-
-- Getting Dependencies
-```shell
-flutter pub get
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/omegaui/chat_desk/blob/main/app-icon/app_icon_32.png"><img src="/omegaui/chat_desk/raw/main/app-icon/app_icon_32.png" alt="" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chat_desk（正在制作中）</font></font></h1><a id="user-content--chat_desk-in-the-making" class="anchor" aria-label="永久链接：chat_desk（正在制作中）" href="#-chat_desk-in-the-making"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用 Flutter 编写的自托管桌面聊天应用程序！</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5714535bfbbed3eece4c536348320004e4833f28a9b80446add78b91090b5b58/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d62617369636f6e732d636f6c6f722d64616e696c2d706f6c7368696e2f33322f6e756c6c2f65787465726e616c2d73706163652d73706163652d62617369636f6e732d636f6c6f722d64616e696c2d706f6c7368696e2d31332e706e67"><img src="https://camo.githubusercontent.com/5714535bfbbed3eece4c536348320004e4833f28a9b80446add78b91090b5b58/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d62617369636f6e732d636f6c6f722d64616e696c2d706f6c7368696e2f33322f6e756c6c2f65787465726e616c2d73706163652d73706163652d62617369636f6e732d636f6c6f722d64616e696c2d706f6c7368696e2d31332e706e67" alt="" data-canonical-src="https://img.icons8.com/external-basicons-color-danil-polshin/32/null/external-space-space-basicons-color-danil-polshin-13.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content--features" class="anchor" aria-label="永久链接：特点" href="#-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 自行托管您自己的聊天室</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔐 设置服务器代码（用户还需要此代码和服务器地址才能连接）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💙 完整的私人聊天</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌ 不收集数据</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🪨 坚不可摧的核心</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎉 真正的开源</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cb9787866295f97e4f232296e78c16fc5bd8e2bd78678c6b3f4c2ea6a144e3d1/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722d676c6173732f33322f6e756c6c2f6c61622d6974656d732e706e67"><img src="https://camo.githubusercontent.com/cb9787866295f97e4f232296e78c16fc5bd8e2bd78678c6b3f4c2ea6a144e3d1/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722d676c6173732f33322f6e756c6c2f6c61622d6974656d732e706e67" alt="" data-canonical-src="https://img.icons8.com/color-glass/32/null/lab-items.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">待实施的功能</font></font></h2><a id="user-content--features-to-be-implemented" class="anchor" aria-label="永久链接：要实现的功能" href="#-features-to-be-implemented"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">😼 阻止用户</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💕 可选的用户白名单，仅允许指定用户连接</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎽 多主题</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fdaac366202a68c395e8c1ea65939e48452c5a661227eb6ad28c9135fa32b442/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d6974696d323130312d666c61742d6974696d323130312f33322f6e756c6c2f65787465726e616c2d746573742d6f6e6c696e652d656475636174696f6e2d6974696d323130312d666c61742d6974696d323130312e706e67"><img src="https://camo.githubusercontent.com/fdaac366202a68c395e8c1ea65939e48452c5a661227eb6ad28c9135fa32b442/68747470733a2f2f696d672e69636f6e73382e636f6d2f65787465726e616c2d6974696d323130312d666c61742d6974696d323130312f33322f6e756c6c2f65787465726e616c2d746573742d6f6e6c696e652d656475636174696f6e2d6974696d323130312d666c61742d6974696d323130312e706e67" alt="" data-canonical-src="https://img.icons8.com/external-itim2101-flat-itim2101/32/null/external-test-online-education-itim2101-flat-itim2101.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试（需要安装 dart）</font></font></h2><a id="user-content--testing-requires-dart-installed" class="anchor" aria-label="永久链接：测试（需要安装 dart）" href="#-testing-requires-dart-installed"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Windows 和 Linux 上经过精心测试！</font></font></strong></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我没有 Mac，所以需要 Mac 测试人员！任何帮助将非常感激💕</font></font></strong></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d8379d9d32c7402468d9350cd638a2b30e3147bd1edd0dea9ce00f531dfaad5e/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f33322f6e756c6c2f6c696e75782d2d76312e706e67"><img src="https://camo.githubusercontent.com/d8379d9d32c7402468d9350cd638a2b30e3147bd1edd0dea9ce00f531dfaad5e/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f33322f6e756c6c2f6c696e75782d2d76312e706e67" alt="" data-canonical-src="https://img.icons8.com/color/32/null/linux--v1.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux、</font></font><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8fbdd4981f109095c47b285b8badbf0cfe84d63021d0aad55fefea6437a63e85/68747470733a2f2f696d672e69636f6e73382e636f6d2f666c75656e63792f33322f6e756c6c2f77696e646f77732d31302e706e67"><img src="https://camo.githubusercontent.com/8fbdd4981f109095c47b285b8badbf0cfe84d63021d0aad55fefea6437a63e85/68747470733a2f2f696d672e69636f6e73382e636f6d2f666c75656e63792f33322f6e756c6c2f77696e646f77732d31302e706e67" alt="" data-canonical-src="https://img.icons8.com/fluency/32/null/windows-10.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 和</font></font><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a394e8dcadf6da95577d621f8c8880abe46185c93fc6449731608b3b36b6f3b2/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f33322f6e756c6c2f6d61632d6c6f676f2e706e67"><img src="https://camo.githubusercontent.com/a394e8dcadf6da95577d621f8c8880abe46185c93fc6449731608b3b36b6f3b2/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f33322f6e756c6c2f6d61632d6c6f676f2e706e67" alt="" data-canonical-src="https://img.icons8.com/color/32/null/mac-logo.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MacOS</font></font></h3><a id="user-content--linux--windows-and--macos" class="anchor" aria-label="永久链接：Linux、Windows 和 MacOS" href="#-linux--windows-and--macos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前往</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布</font></font></strong></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux 一行安装</font></font></h3><a id="user-content-linux-one-line-install" class="anchor" aria-label="永久链接：Linux 一行安装" href="#linux-one-line-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>curl <span class="pl-s"><span class="pl-pds">"</span>https://raw.githubusercontent.com/omegaui/chat_desk_linux_install_script/main/script/install-linux.sh<span class="pl-pds">"</span></span> <span class="pl-k">|</span> sh</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="curl &quot;https://raw.githubusercontent.com/omegaui/chat_desk_linux_install_script/main/script/install-linux.sh&quot; | sh" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 和 Mac</font></font></h3><a id="user-content-windows-and-mac" class="anchor" aria-label="永久链接：Windows 和 Mac" href="#windows-and-mac"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了安装之外，您还需要在安装根目录</font><font style="vertical-align: inherit;">下载</font></font><code>chat_desk_core</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&amp; ，</font></font><code>pubspec.yml</code><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行以下命令来下载它，</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<span class="pl-k">&lt;</span>platform<span class="pl-k">&gt;</span>/chat_desk_core.exe
+wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/pubspec.yml</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
+wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/pubspec.yml" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中，platform 是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">windows</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mac</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a8fa11916c87b8bdef000e1104869f3f94a49336b5ef9f82365457fb2fe01158/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f32342f6e756c6c2f6d61632d6c6f676f2e706e67"><img src="https://camo.githubusercontent.com/a8fa11916c87b8bdef000e1104869f3f94a49336b5ef9f82365457fb2fe01158/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f32342f6e756c6c2f6d61632d6c6f676f2e706e67" alt="" data-canonical-src="https://img.icons8.com/color/24/null/mac-logo.png" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现已支持 mac（实验性）。</font></font></h4><a id="user-content--mac-is-now--supported-experimental" class="anchor" aria-label="永久链接：现在支持 mac（实验性）。" href="#-mac-is-now--supported-experimental"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源代码构建</font></font></h2><a id="user-content-build-from-source" class="anchor" aria-label="永久链接：从源代码构建" href="#build-from-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这很容易</font></font></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆存储库</font></font></strong></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/omegaui/chat_desk
+<span class="pl-c1">cd</span> chat_desk</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/omegaui/chat_desk
+cd chat_desk" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取依赖项</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>flutter pub get
+wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<span class="pl-k">&lt;</span>platform<span class="pl-k">&gt;</span>/chat_desk_core.exe
+<span class="pl-c"><span class="pl-c">#</span> for linux</span>
+<span class="pl-c"><span class="pl-c">#</span> sudo chmod 777 chat_desk_core.exe</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="flutter pub get
 wget https://raw.githubusercontent.com/omegaui/chat_desk_core/main/bin/<platform>/chat_desk_core.exe
 # for linux
-# sudo chmod 777 chat_desk_core.exe
-```
-
-- Launching
-```shell
-flutter run 
-```
-
-## ⚡ Contributing
-
-Hey this is for you, if you want to help in building the project,
-
-Since, the core of the program is separated and independent of the UI,
-There seems a hassle of building both the core and the UI for testing changes/features,
-
-**⚡ But this is not the case with chat_desk ⚡**
-
-For debugging purpose, you can replace the spawner command in `server_handler.dart`,
-to enable embedded core,
-
-All you need to do is to replace,
-
-Only this line
-```dart
-    _serverProcess = await Process.start(
-"${!Platform.isWindows ? "./" : ""}chat_desk_core.exe", []);
-```
-
-With this line
-```dart
-    _serverProcess = await Process.start(
-"dart", ["lib/core/server/server.dart"]);
-```
-
-_And thats all, your embedded server is ready for testing!!_
-
-
-<div align="center">
-    <img src="images/preview.png">
-    <h4 style="font-style: italic;">Dark Mode Banner</h4>
+# sudo chmod 777 chat_desk_core.exe" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发射</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>flutter run </pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="flutter run " tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡ 贡献</font></font></h2><a id="user-content--contributing" class="anchor" aria-label="永久链接：⚡ 贡献" href="#-contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">嘿，这是给你的，如果你想帮助构建该项目，</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于程序的核心是分离的并且独立于 UI，因此构建核心和 UI 来测试更改/功能似乎很麻烦，</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡ 但 chat_desk 的情况并非如此 ⚡</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出于调试目的，您可以替换 中的 spawner 命令</font></font><code>server_handler.dart</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以启用嵌入式核心，</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您所需要做的就是更换，</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只有这一行</font></font></p>
+<div class="highlight highlight-source-dart notranslate position-relative overflow-auto" dir="auto"><pre>    _serverProcess <span class="pl-k">=</span> <span class="pl-k">await</span> <span class="pl-c1">Process</span>.<span class="pl-en">start</span>(
+<span class="pl-s">"<span class="pl-s">${!<span class="pl-c1">Platform</span>.<span class="pl-v">isWindows</span> ? <span class="pl-s">"./"</span> : <span class="pl-s">""</span>}</span>chat_desk_core.exe"</span>, []);</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    _serverProcess = await Process.start(
+&quot;${!Platform.isWindows ? &quot;./&quot; : &quot;&quot;}chat_desk_core.exe&quot;, []);" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有了这条线</font></font></p>
+<div class="highlight highlight-source-dart notranslate position-relative overflow-auto" dir="auto"><pre>    _serverProcess <span class="pl-k">=</span> <span class="pl-k">await</span> <span class="pl-c1">Process</span>.<span class="pl-en">start</span>(
+<span class="pl-s">"dart"</span>, [<span class="pl-s">"lib/core/server/server.dart"</span>]);</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    _serverProcess = await Process.start(
+&quot;dart&quot;, [&quot;lib/core/server/server.dart&quot;]);" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就这样，您的嵌入式服务器已准备好进行测试！</font></font></em></p>
+<div align="center" dir="auto">
+    <a target="_blank" rel="noopener noreferrer" href="/omegaui/chat_desk/blob/main/images/preview.png"><img src="/omegaui/chat_desk/raw/main/images/preview.png" style="max-width: 100%;"></a>
+    <div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深色模式横幅</font></font></h4><a id="user-content-dark-mode-banner" class="anchor" aria-label="永久链接：深色模式横幅" href="#dark-mode-banner"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
     <br>
     <br>
-    <img src="images/github-banner.png">
-    <h4 style="font-style: italic;">Light Mode Banner</h4>
+    <a target="_blank" rel="noopener noreferrer" href="/omegaui/chat_desk/blob/main/images/github-banner.png"><img src="/omegaui/chat_desk/raw/main/images/github-banner.png" style="max-width: 100%;"></a>
+    <div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灯光模式横幅</font></font></h4><a id="user-content-light-mode-banner" class="anchor" aria-label="永久链接：灯光模式横幅" href="#light-mode-banner"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
     <br>
     <br>
-    <img src="images/preview-windows.png">
-    <h4 style="font-style: italic;">Windows 11 Preview</h4>
+    <a target="_blank" rel="noopener noreferrer" href="/omegaui/chat_desk/blob/main/images/preview-windows.png"><img src="/omegaui/chat_desk/raw/main/images/preview-windows.png" style="max-width: 100%;"></a>
+    <div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 11 预览版</font></font></h4><a id="user-content-windows-11-preview" class="anchor" aria-label="永久链接：Windows 11 预览版" href="#windows-11-preview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 </div>
+</article></div>
